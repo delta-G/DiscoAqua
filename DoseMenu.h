@@ -4,8 +4,8 @@
 
 #include "Arduino.h"
 #include "DoseHead.h"
-#include "DoseDisplay.h"
-#include "DoseInterface.h"
+#include "DiscoDisplay.h"
+#include "DiscoInterface.h"
 #include "DoseSchedule.h"
 #include "DS3234RTC.h"
 

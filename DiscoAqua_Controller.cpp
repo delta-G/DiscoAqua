@@ -15,7 +15,7 @@ void setup() {
 	initButton();
 	initEncoder();
 	RTC.begin(9);
-	DoseAlert::setAlertHandler (alertHandler);
+	DiscoAlert::setAlertHandler (alertHandler);
 	getSchedule(0)->startupCode(5, EA_ALK_SCHEDULE, "Alk");
 	getSchedule(1)->startupCode(6, EA_CA_SCHEDULE, "Cal");
 //setTime(1388534400);

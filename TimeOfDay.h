@@ -7,7 +7,6 @@
 #define MIDNIGHT 1440
 
 
-
 class TimeOfDay {
   
   public:

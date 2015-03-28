@@ -1,4 +1,4 @@
-#include "DoseInterface.h"
+#include "DiscoInterface.h"
 
 const byte intPin = 2;
 const byte bPin = 4;

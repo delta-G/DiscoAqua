@@ -36,13 +36,12 @@
 #define MAX_ALERTS 10
 #define ALERT_DELAY 5000ul
 
-#include "DoseInterface.h"
+#include "DiscoInterface.h"
 #include "TimeOfDay.h"
 #include "DoseSchedule.h"
 #include "DoseMenu.h"
-#include "DoseInterface.h"
-#include "DoseDisplay.h"
-#include "DoseAlert.h"
+#include "DiscoDisplay.h"
+#include "DiscoAlert.h"
 
 
 typedef void (*S_Function)();
@@ -50,7 +49,7 @@ typedef void (*S_Function)();
 enum StateVar {
   RUN_STATE, MENU_STATE, DOSE_STATE, ALERT_STATE};
 
-void alertHandler(DoseAlert*);
+void alertHandler(DiscoAlert*);
 void removeAlert(int);
 
 

@@ -18,11 +18,11 @@ DoseSchedule* getSchedule(int aindex){
 
 
 //  Exceptions
-DoseAlert* alertList[MAX_ALERTS];
+DiscoAlert* alertList[MAX_ALERTS];
 int numberOfAlerts = 0;
 
 
-void alertHandler(DoseAlert* daptr){
+void alertHandler(DiscoAlert* daptr){
   if (numberOfAlerts < MAX_ALERTS){
     alertList[numberOfAlerts] = daptr;
     numberOfAlerts++;

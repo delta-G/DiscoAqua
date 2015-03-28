@@ -1,4 +1,4 @@
-#include "DoseDisplay.h"
+#include "DiscoDisplay.h"
 #include "DoseHead.h"
 
 extern HardwareSerial Serial;

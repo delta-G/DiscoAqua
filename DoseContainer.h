@@ -3,7 +3,7 @@
 #define DoseContainer_h
 
 #include "Arduino.h"
-#include "DoseAlert.h"
+#include "DiscoAlert.h"
 
 
 class DoseContainer {
@@ -15,7 +15,7 @@ class DoseContainer {
   char name[6];
   
   public:
-  DoseAlert dalert;
+  DiscoAlert dalert;
   
   DoseContainer();
   DoseContainer(char*, int, int);

@@ -15,6 +15,7 @@
 #include <Arduino.h>
 #include <avr/pgmspace.h>
 
+
 #define SPI_CLOCK_DIV4 0x00
 #define SPI_CLOCK_DIV16 0x01
 #define SPI_CLOCK_DIV64 0x02

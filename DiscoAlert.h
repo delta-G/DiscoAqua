@@ -1,5 +1,5 @@
-#ifndef DoseAlert_h
-#define DoseAlert_h
+#ifndef DiscoAlert_h
+#define DiscoAlert_h
 
 #include "Arduino.h"
 
@@ -25,8 +25,8 @@ enum ExceptionTypes {
   UNCLASSIFIED_EXCEPTION , CONTAINER_EXCEPTION };
 
 
-class DoseAlert {
-typedef void (*FireFunc)(DoseAlert*);
+class DiscoAlert {
+typedef void (*FireFunc)(DiscoAlert*);
 private: 
 
   static FireFunc fireAlert;  
@@ -37,9 +37,9 @@ private:
 
 public:
   
-  DoseAlert();
-  DoseAlert(int, char*, char*);
-  DoseAlert(int, const __FlashStringHelper*,const __FlashStringHelper*);
+  DiscoAlert();
+  DiscoAlert(int, char*, char*);
+  DiscoAlert(int, const __FlashStringHelper*,const __FlashStringHelper*);
   boolean isActive();  
   void setActive(boolean);
   void setActive(boolean, int, char*, char*);
@@ -52,7 +52,7 @@ public:
   void setText(int, char*);
   void setText(int, const __FlashStringHelper*);
   
-  static void setAlertHandler(void (*handler)(DoseAlert*));
+  static void setAlertHandler(void (*handler)(DiscoAlert*));
 
 };
 

@@ -7,7 +7,7 @@
 #include "DosingPump.h"
 #include "EepromFuncs.h"
 #include "DoseContainer.h"
-#include "DoseAlert.h"
+#include "DiscoAlert.h"
 
 #define PWM_ENABLED false
 
@@ -55,8 +55,8 @@ private:
   
   // Alerts
 
-  DoseAlert volExceedAlert;
-  DoseAlert notCalibratedAlert;
+  DiscoAlert volExceedAlert;
+  DiscoAlert notCalibratedAlert;
 
   public:
 

@@ -1,6 +1,7 @@
 
 #include "TimeOfDay.h"
 
+
 void TimeOfDay::printMe(char* buf){
   sprintf(buf, "%02d:%02d%n", theTime / 60, theTime % 60);
 }

@@ -1,5 +1,5 @@
-#ifndef DoseInterface_h
-#define DoseInterface_h
+#ifndef DiscoInterface_h
+#define DiscoInterface_h
 
 #include "Arduino.h"
 #include "pins_arduino.h"

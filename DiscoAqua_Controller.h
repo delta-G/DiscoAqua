@@ -15,7 +15,7 @@
 #include "LiquidCrystal_SPI_8Bit.h"
 #include "DoseSchedule.h"
 #include "DoseHead.h"
-#include "DoseAlert.h"
+#include "DiscoAlert.h"
 #include "DS3234RTC.h"
 #include <avr/wdt.h>
 

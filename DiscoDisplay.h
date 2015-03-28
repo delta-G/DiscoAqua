@@ -1,6 +1,6 @@
 
-#ifndef DoseDisplay_h
-#define DoseDisplay_h
+#ifndef DiscoDisplay_h
+#define DiscoDisplay_h
 
 #include "Arduino.h"
 #include "LiquidCrystal_SPI_8Bit.h"
