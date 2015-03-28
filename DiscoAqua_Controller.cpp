@@ -1,6 +1,5 @@
 // Do not remove the include below
-#include "Disco_Doser.h"
-#include "Time.h"
+#include "DiscoAqua_Controller.h"
 
 
 uint8_t heartbeatPin = A0;

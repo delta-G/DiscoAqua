@@ -4,10 +4,10 @@
 // - extern variable definitions
 // In the appropriate section
 
-#ifndef Disco_Doser_H_
-#define Disco_Doser_H_
+#ifndef DiscoAqua_Controller_H_
+#define DiscoAqua_Controller_H_
 #include "Arduino.h"
-//add your includes for the project Disco_Doser here
+//add your includes for the project DiscoAqua_Controller here
 #include "EEPROM.h"
 #include "DosingPump.h"
 #include "Time.h"
@@ -31,11 +31,10 @@ void setup();
 } // extern "C"
 #endif
 
-//add your function definitions for the project Disco_Doser here
-
+//add your function definitions for the project DiscoAqua_Controller here
 
 void heartbeat();
 
 
 //Do not add code below this line
-#endif /* Disco_Doser_H_ */
+#endif /* DiscoAqua_Controller_H_ */
