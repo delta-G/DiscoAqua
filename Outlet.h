@@ -8,6 +8,7 @@
 #ifndef OUTLET_H_
 #define OUTLET_H_
 
+#include "Arduino.h"
 #include "PowerLine.h"
 
 
