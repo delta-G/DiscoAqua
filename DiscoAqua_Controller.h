@@ -8,7 +8,6 @@
 #define DiscoAqua_Controller_H_
 #include "Arduino.h"
 //add your includes for the project DiscoAqua_Controller here
-#include "EEPROM.h"
 #include "DosingPump.h"
 #include "Time.h"
 #include "TimeOfDay.h"
