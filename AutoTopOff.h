@@ -21,6 +21,12 @@ public:
 	Outlet refilOutlet;
 	uint8_t floatPins[4];
 
+	// Times in seconds
+	unsigned int minOnTime;
+	unsigned int minOffTime;
+	unsigned int maxOnTime;
+
+
 	AutoTopOff();
 	void initATO(Outlet, Outlet, uint8_t, uint8_t, uint8_t, uint8_t);
 

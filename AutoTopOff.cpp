@@ -9,6 +9,10 @@
 
 AutoTopOff::AutoTopOff() {
 
+	minOnTime = 5;
+	minOffTime = 300;
+	maxOnTime = 20;
+
 }
 
 void AutoTopOff::initATO(Outlet apump, Outlet arefil, uint8_t shfp,
@@ -28,7 +32,14 @@ void AutoTopOff::initATO(Outlet apump, Outlet arefil, uint8_t shfp,
 	}
 }
 
+//  **TODO
+//  Add a long long debounce to those reads
+//  And add code to handle minimum and maximum on times and minimum off times
+
 void AutoTopOff::checkATO() {
+	static unsigned long lastOnTime = millis();
+	static unsigned long lastOffTime = millis();
+
 	if (digitalRead(floatPins[SUMP_HIGH])) {
 		pumpOutlet.turnOff();
 	}

@@ -23,7 +23,6 @@ void setup() {
 	setSyncProvider(RTC.get);
 // WDT will reset the board if dosers aren't checked at least once every 2 seconds.
 	wdt_enable (WDTO_2S);
-
 }
 
 void loop() {
